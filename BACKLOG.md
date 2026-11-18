@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-18: 0.5.1. Fixed: the Menu stayed on top of Settings. Every Menu row (Settings, How to play, Map, Journal, Records) now opens in place of the Menu, and Back brings the Menu back. The starter base got the same fix and the bus layout file, so new games start with both.
+
 - 2026-11-18: 0.5.0 Sound and fires. Fixed: no music or sound in the browser (the sound buses now come from a bus layout file). Fixed: jumping while running, with a short grace after leaving the ground and a jump pressed just before landing. Boost smoke behind the bike (BC's test). The Old Fires request from Ilo, star stones that make climbing last longer, the journey postcard in the Journal and rumble on landings, summits, fires and stones (backlog 23, 25, 30, 35).
 
 - 2026-11-18: 0.4.0 Easier climbs. Climbs start on purpose (push a moment or jump at the wall), holding still on a wall is free, a jump at a wall grabs it higher, the camera pulls back on climbs and frames both people in a talk, a Camera behind you button, the Journal of open requests and four updrafts that lift the glide (backlog 9, 10, 11, 12, 15, 19).
@@ -18,12 +20,12 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Now
 
-- BC tests now: 0.5.0 is on the Game Shelf.
+- BC tests now: 0.5.1 is on the Game Shelf.
 - The rider is in the game (0.1.1). Still to come: the Meshy bike, and the climb motion in 0.2. A young nomad, about 16, coral and teal wrap, long gold scarf, goggles (BC, 2026-11-18). Name still open.
 
 ## Next (BC picks after his test)
 
-- BC's feel check on 0.5.0: bike, climbing, gliding, camera, frame rate.
+- BC's feel check on 0.5.1: bike, climbing, gliding, camera, frame rate.
 - The Meshy hover bike (G8.5): needs BC to attach the GLB.
 - Meshy people for Elder Suna and the nomads.
 - Real landmark shapes for the tower, the ship and the falls (the art pass, G8.6 reference first).
@@ -95,6 +97,7 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 
 - 2026-11-18: "move forward with your best judgement for the next releases". 0.4.0 took the starred climbing and camera items, 0.5.0 the fires, stone stamina, postcard and rumble.
 - 2026-11-18 browser test: can't jump while running, no sound or music, add smoke behind the bike on boost. All three fixed in 0.5.0.
+- 2026-11-18: yes to the bus layout file in the shared starter base. The Menu should go away when Settings opens (fixed in 0.5.1).
 
 - 2026-11-18: named Glasswind. Build the 3D driving starter first, then Glasswind from it. Low-poly flat color. Bike sigils as keepsakes.
 - 2026-11-18: keep going to 0.3 and the Game Shelf, then BC tests. Title track B (Ancient Winds). Shelf picture A (riding an arch).
