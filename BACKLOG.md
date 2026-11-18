@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-18: 0.5.0 Sound and fires. Fixed: no music or sound in the browser (the sound buses now come from a bus layout file). Fixed: jumping while running, with a short grace after leaving the ground and a jump pressed just before landing. Boost smoke behind the bike (BC's test). The Old Fires request from Ilo, star stones that make climbing last longer, the journey postcard in the Journal and rumble on landings, summits, fires and stones (backlog 23, 25, 30, 35).
+
 - 2026-11-18: 0.4.0 Easier climbs. Climbs start on purpose (push a moment or jump at the wall), holding still on a wall is free, a jump at a wall grabs it higher, the camera pulls back on climbs and frames both people in a talk, a Camera behind you button, the Journal of open requests and four updrafts that lift the glide (backlog 9, 10, 11, 12, 15, 19).
 
 - 2026-11-18: 0.3.0 The journey. Four more requests (Pell at the Oasis, Sef at the Buried Ship, the Old Road arches, the flute, the mast), the Scout's and Courier's sigils with a small ability each, the ending choice with Elder Suna, six star stones, the Map with travel, the title track (Ancient Winds, BC's pick), wind, bike hum, footsteps and the glide sound, a low-poly hover bike in code, a softer sand light and the Game Shelf card.
@@ -16,12 +18,12 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Now
 
-- BC tests now: 0.4.0 is on the Game Shelf.
+- BC tests now: 0.5.0 is on the Game Shelf.
 - The rider is in the game (0.1.1). Still to come: the Meshy bike, and the climb motion in 0.2. A young nomad, about 16, coral and teal wrap, long gold scarf, goggles (BC, 2026-11-18). Name still open.
 
 ## Next (BC picks after his test)
 
-- BC's feel check on 0.4.0: bike, climbing, gliding, camera, frame rate.
+- BC's feel check on 0.5.0: bike, climbing, gliding, camera, frame rate.
 - The Meshy hover bike (G8.5): needs BC to attach the GLB.
 - Meshy people for Elder Suna and the nomads.
 - Real landmark shapes for the tower, the ship and the falls (the art pass, G8.6 reference first).
@@ -62,17 +64,17 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 20. Bike tricks in the air: a spin or a flip off a crest, with a little boost as the reward. M
 21. Sand surfing on foot: slide down steep sand on your cloak. Pairs with idea 4 for the bike. M
 22. A flop button: tumble down a dune for fun. No damage. S
-23. Star stones grow stamina: every two stones make climbing last longer, so finds matter (A Short Hike's feathers, Sable's chum eggs). S
+23. Star stones grow stamina: every two stones make climbing last longer, so finds matter (A Short Hike's feathers, Sable's chum eggs). S Done in 0.5.0.
 24. Rock-top perch: the climber stands neatly on top of a thin rock or post when they reach it. S
 
 ### Things to do
 
-25. * Fewer fetch requests: small climbing puzzles, such as lighting three braziers on the falls or turning old wind vanes to wake a machine. M
+25. * Fewer fetch requests: small climbing puzzles, such as lighting three braziers on the falls or turning old wind vanes to wake a machine. M Done in 0.5.0.
 26. More life in the basin: beetles and lizards on the sand, birds that lift off as you ride by and a trader who wanders between camps. M
 27. Something every 200 meters: small ruins, a lone campfire, a half-buried statue, a lookout post. M
 28. Hidden caves under the dunes, each with one relic. L
 29. More callings: Machinist (fix the beacon's gears) and Cartographer (map the rim), each with three requests and a sigil. L
-30. A journey postcard at the ending: places found, stones, distance ridden and longest glide. S
+30. A journey postcard at the ending: places found, stones, distance ridden and longest glide. S Done in 0.5.0.
 31. Outfits as rewards: wrap and scarf colours from requests and finds. Pairs with idea 2, the bike garage. M
 32. A desert fox that follows you after you help it and rides on the bike. M
 
@@ -80,7 +82,7 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 
 33. Music swells at a summit and the first time you ride out of Home Camp. S
 34. A sand trail behind the bike and a scarf that streams in the wind. M
-35. Rumble on landings, boost and climbing over the top (Xbox controller and phone). S
+35. Rumble on landings, boost and climbing over the top (Xbox controller and phone). S Done in 0.5.0.
 36. * Frame-rate budget: simpler far rocks and a phone check every release (Sable's stutter was its biggest complaint). M
 
 ## Not planned (they break the pillars)
@@ -90,6 +92,9 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 - Fuel or water limits that strand you.
 
 ## Decisions from BC
+
+- 2026-11-18: "move forward with your best judgement for the next releases". 0.4.0 took the starred climbing and camera items, 0.5.0 the fires, stone stamina, postcard and rumble.
+- 2026-11-18 browser test: can't jump while running, no sound or music, add smoke behind the bike on boost. All three fixed in 0.5.0.
 
 - 2026-11-18: named Glasswind. Build the 3D driving starter first, then Glasswind from it. Low-poly flat color. Bike sigils as keepsakes.
 - 2026-11-18: keep going to 0.3 and the Game Shelf, then BC tests. Title track B (Ancient Winds). Shelf picture A (riding an arch).
