@@ -37,6 +37,50 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 7. Night sky reading: constellations that point to hidden places.
 8. A camp you set up anywhere, to save and rest by a fire.
 
+## From the Sable review (2026-11-18): QoL and gameplay ideas (BC picks by number)
+
+Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small, M medium, L large. Starred items are the suggested first picks.
+
+### Quality of life
+
+9. * Climb only on purpose: a climb starts after you push into a wall for a moment or jump at it, so a brush against a rock never spends stamina. S
+10. * Hang still for free: holding still on a wall costs no stamina, so you can look around and plan a route. S
+11. Jump-start a climb: jumping at a wall gives a free couple of meters before stamina drains. S
+12. * Camera care: the camera pulls back and up while climbing, frames both people during a talk and has a recenter button (right stick click). M
+13. Stamina ring by the rider instead of the bar at the bottom of the screen. S
+14. Map pins and a compass strip: drop a pin on any spot you look at, and see pins and found places along the top of the screen. Off by default. M
+15. * Request journal in the Menu: each open request, who asked and where to go. S
+16. The bike rides over to you when called (when it is in view) instead of appearing beside you. M
+17. Glide by choice: a Settings switch so the bubble opens on a press instead of on its own. S
+18. Lookouts fill the Map: reaching the top of the tower or the mast marks nearby places, like Sable's cartographers. M
+
+### Movement and fun
+
+19. * Updrafts: warm air over the Dry Falls and big dunes lifts the glide bubble, so a long glide can climb again. M
+20. Bike tricks in the air: a spin or a flip off a crest, with a little boost as the reward. M
+21. Sand surfing on foot: slide down steep sand on your cloak. Pairs with idea 4 for the bike. M
+22. A flop button: tumble down a dune for fun. No damage. S
+23. Star stones grow stamina: every two stones make climbing last longer, so finds matter (A Short Hike's feathers, Sable's chum eggs). S
+24. Rock-top perch: the climber stands neatly on top of a thin rock or post when they reach it. S
+
+### Things to do
+
+25. * Fewer fetch requests: small climbing puzzles, such as lighting three braziers on the falls or turning old wind vanes to wake a machine. M
+26. More life in the basin: beetles and lizards on the sand, birds that lift off as you ride by and a trader who wanders between camps. M
+27. Something every 200 meters: small ruins, a lone campfire, a half-buried statue, a lookout post. M
+28. Hidden caves under the dunes, each with one relic. L
+29. More callings: Machinist (fix the beacon's gears) and Cartographer (map the rim), each with three requests and a sigil. L
+30. A journey postcard at the ending: places found, stones, distance ridden and longest glide. S
+31. Outfits as rewards: wrap and scarf colours from requests and finds. Pairs with idea 2, the bike garage. M
+32. A desert fox that follows you after you help it and rides on the bike. M
+
+### Sound, look and speed
+
+33. Music swells at a summit and the first time you ride out of Home Camp. S
+34. A sand trail behind the bike and a scarf that streams in the wind. M
+35. Rumble on landings, boost and climbing over the top (Xbox controller and phone). S
+36. * Frame-rate budget: simpler far rocks and a phone check every release (Sable's stutter was its biggest complaint). M
+
 ## Not planned (they break the pillars)
 
 - Combat, enemies or bosses.
