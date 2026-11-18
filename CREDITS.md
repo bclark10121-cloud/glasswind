@@ -12,6 +12,8 @@ Glasswind is an original game. The basin, the landmarks, the hover bike, the rid
 
 ## Made for this game
 
+- The rider: made for Glasswind through Gemini and Meshy from original reference art (G8.3, G8.4). Motions from the Meshy animation library.
+
 - The terrain, landmarks, bike, rider, icon and start screen, all drawn in code.
 
 ## Tools

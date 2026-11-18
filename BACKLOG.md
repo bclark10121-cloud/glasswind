@@ -4,12 +4,14 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-18: 0.1.1. The real rider from Gemini and Meshy replaces the box figure, with idle, walk, run, jump and a seated ride pose.
+
 - 2026-11-18: 0.1.0 Gray box shipped. The basin (1.5 km floor, 1.7 km with the rim), Home Camp, the Leaning Tower, the Buried Ship, the Dry Falls with a ramp up the south side, the Oasis and the Nomad Camp as gray boxes. The hover bike, walking, calling the bike from anywhere, jumps, boost, the chase and over-the-shoulder camera, touch controls, Auto accelerate, the day one pieces and ten achievements.
 
 ## Now
 
 - BC: feel check on a phone and a controller (0.1).
-- The Meshy rider: a young nomad, about 16, coral and teal wrap, long gold scarf, goggles (BC, 2026-11-18). Name still open.
+- The rider is in the game (0.1.1). Still to come: the Meshy bike, and the climb motion in 0.2. A young nomad, about 16, coral and teal wrap, long gold scarf, goggles (BC, 2026-11-18). Name still open.
 
 ## Next: 0.2 Climb and glide
 
