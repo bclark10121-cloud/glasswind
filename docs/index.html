@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glasswind</title><link rel="icon" href="icon.png">
+<meta name="description" content="Glasswind. Ride the quiet desert. For Android and the browser.">
+<style>
+:root{--ink:#2a1a2e;--accent:#b0603f;--warm:#3f7f7a;--card:#fff8ee;--line:rgba(0,0,0,.14);--btn-ink:#fff}
+*{box-sizing:border-box}html{background:#f3e2c8}
+body{margin:0;min-height:100vh;background:linear-gradient(#2a3470 0%,#7a4a6a 22%,#e0876a 42%,#f3b77a 58%,#f3e2c8 75%);background-color:#f3e2c8;color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:880px;margin:0 auto;padding:18px 20px 60px}
+.back{font-size:14px;opacity:.85}.back a{color:inherit;text-decoration:none}.back a:hover{text-decoration:underline}
+header{text-align:center;margin-top:8px;color:#fff3e0}.back{color:#fff3e0}
+.icon{width:84px;height:84px;border-radius:20px;box-shadow:0 6px 18px rgba(0,0,0,.25);display:block;margin:6px auto 0}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,8vw,62px);letter-spacing:2px;margin:12px 0 0;color:#fff3e0;line-height:1.1;}
+.tag{letter-spacing:4px;text-transform:uppercase;font-size:12px;opacity:.85;margin:6px 0 4px}
+.hook{font-family:Georgia,"Times New Roman",serif;font-size:20px;color:var(--accent);margin:6px 0 0}
+.lead{font-size:18px;max-width:660px;margin:14px auto 22px;text-wrap:balance}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+a.btn{display:inline-block;padding:13px 22px;border-radius:14px;font-weight:700;text-decoration:none;border:1px solid rgba(0,0,0,.2)}
+a.primary{background:var(--accent);color:var(--btn-ink)}a.ghost{background:var(--card);color:var(--ink);border-color:var(--line)}
+a.btn:focus-visible,.shots a:focus-visible{outline:3px solid var(--warm);outline-offset:2px}
+.note{font-size:13px;opacity:.85;text-align:center}.note a{color:inherit}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0 8px}
+.shots img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px;border:1px solid var(--line);display:block}
+h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:1px;color:var(--accent);font-size:24px;margin:34px 0 10px;font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.card b{color:var(--warm)}ol,ul{padding-left:20px;margin:6px 0}a{color:var(--warm)}
+footer{margin-top:44px;font-size:13px;opacity:.8;text-align:center}footer a{color:inherit}
+@media (max-width:560px){.shots{grid-template-columns:1fr}.cta a.btn{width:100%;text-align:center}}
+</style></head><body><main>
+<div class="back"><a href="https://bclark10121-cloud.github.io/">&larr; The Game Shelf</a></div>
+<header><img class="icon" src="icon.png" alt=""><h1>Glasswind</h1><div class="tag">Ride the quiet desert</div>
+<p class="hook">Ride, jump and wander.</p>
+<p class="lead">Ride a hover bike across a quiet desert basin. Fly over dunes, find old ruins and a hidden oasis, and jump off the cliffs at the Dry Falls. Nothing can hurt you and the bike always comes when you call. This is an early gray box test: the shapes are simple while the riding gets tuned.</p>
+<div class="cta"><a class="btn primary" href="play/">Play in your browser</a><a class="btn ghost" href="downloads/Glasswind-v0.1.0.apk">Download for Android (APK)</a></div>
+<p class="note">Version 0.1.0. <a href="release-notes/v0.1.0.md">Release notes</a> &middot; <a href="https://github.com/bclark10121-cloud/glasswind/blob/main/BACKLOG.md">Backlog</a></p></header>
+<div class="shots"><a href="shot-1.jpg"><img src="shot-1.jpg" alt="The rider on the hover bike near Home Camp, dunes and the basin rim ahead" width="960" height="540"></a><a href="shot-2.jpg"><img src="shot-2.jpg" alt="The bike by the Oasis, a still pool with palms below the Dry Falls cliff" width="960" height="540"></a><a href="shot-3.jpg"><img src="shot-3.jpg" alt="Riding toward the Nomad Camp tents with the Leaning Tower on the skyline" width="960" height="540"></a></div>
+<h2>What kind of game is this?</h2>
+<div class="grid"><div class="card"><b>The ride is the reward.</b> A hover bike that floats over the sand, drifts in turns, boosts and leaves the ground over every crest.</div><div class="card"><b>No way to lose.</b> No enemies, no damage and no fuel. The bike never breaks.</div><div class="card"><b>Go where you can see.</b> One open basin about a mile across, with landmarks on every horizon.</div><div class="card"><b>Your pace.</b> Ride, walk, stop and look. Climbing, gliding and camp requests come next.</div></div>
+<h2>Things to do</h2>
+<ul><li>Ride out from Home Camp and find five places: the Leaning Tower, the Buried Ship, the Dry Falls, the Oasis and the Nomad Camp.</li><li>Ride up the long ramp on the south side of the Dry Falls and jump off the top.</li><li>Get off and walk anywhere. Call the bike back from anywhere with one button.</li><li>Earn Big Air, Shipwright and Oasis. Seven more achievements arrive in later releases.</li></ul>
+<h2>Controls</h2>
+<div class="grid"><div class="card"><b>Keyboard</b><br>WASD walks, or steers and goes on the bike. Space jumps. Q gets on or off the bike, or calls it. Shift boosts. Arrows or the mouse turn the camera. Esc opens the Menu.</div><div class="card"><b>Xbox controller</b><br>Left stick walks or steers. Right stick turns the camera. RT goes and LT brakes. A jumps. B gets on or off the bike, or calls it. LB boosts. Menu or View opens the Menu.</div><div class="card"><b>Touch</b><br>Drag on the left side to walk. On the bike, drag up to go and sideways to steer. Drag on the right side to look. Bike, Jump and Boost buttons on the right. Settings > Auto accelerate rides with one thumb.</div></div>
+<h2>Play with an Xbox controller</h2>
+<p>Any Xbox Wireless Controller with Bluetooth works. That is every Series X|S controller and the Xbox One controllers made since 2016. If the plastic around the Xbox button matches the face of the controller, it has Bluetooth. Other controllers that your phone or browser sees as a standard gamepad use the same buttons.</p>
+<div class="grid"><div class="card"><b>On Android</b><ol><li>Hold the Xbox button to turn the controller on.</li><li>Hold the small Pair button on top for 3 seconds, until the Xbox button flashes fast.</li><li>On your phone, open Settings, then Connected devices, then Pair new device.</li><li>Tap Xbox Wireless Controller. The Xbox button stays lit when it is connected.</li><li>Open Glasswind. The touch buttons hide as soon as you use the controller.</li></ol></div><div class="card"><b>In your browser</b><ol><li>Connect the controller to your computer with a USB cable or Bluetooth.</li><li>Open Play in your browser. Chrome, Edge, Firefox and Safari all work.</li><li>Press any button once after the game loads, so the browser sees the controller.</li></ol></div><div class="card"><b>Menus</b><br>The D-pad or left stick moves between buttons. A chooses and B goes back. You can play the whole game with only the controller.</div></div>
+<h2>Install on Android</h2>
+<ol><li>Tap <b>Download for Android</b>.</li><li>Open the downloaded file.</li><li>If Android asks, allow installs from this source.</li><li>Tap Install, then open the game.</li></ol>
+<p class="note">Android may show a Play Protect notice for apps from outside the Play Store. Version 0.1.0 installs over the last version and keeps your saves.</p>
+<h2>Feedback wanted</h2>
+<ul><li>How the bike feels: speed, turning, drifting and jumps.</li><li>Whether the camera ever gets in the way, on the bike or on foot.</li><li>How smooth it runs on your phone (Settings > Picture can go lower).</li><li>Your phone or browser.</li></ul>
+<footer>Glasswind. Early test build, so expect rough edges. Stand-in title music made for the studio starter. Real music from Patch.gg comes later. <a href="https://github.com/bclark10121-cloud/glasswind/blob/main/CREDITS.md">Credits</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="https://bclark10121-cloud.github.io/">More games on The Game Shelf</a></footer>
+</main></body></html>
