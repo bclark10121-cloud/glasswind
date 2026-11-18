@@ -2,13 +2,14 @@
 
 Glasswind is an original game. The basin, the landmarks, the hover bike, the rider and the start screen are built in code for this test build. No personal names here (G1.11).
 
-## Music
+## Music (found through the Patch.gg asset library)
 
-- The title track is a stand-in made by the studio starter tool (`tools/make_starter_audio.py`). A Patch.gg track replaces it later.
+- "Ancient Winds" by Kevin MacLeod (incompetech.com, https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900043), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from MP3 to Ogg Vorbis, credit added to the Ogg comments. Changed for Glasswind: trimmed to a 150 second loop and level-matched. The title track and the play music (BC picked it, 2026-11-18).
 
 ## Sounds
 
 - The click, blip and pick sounds are made by the studio starter tool.
+- The wind, bike hum, footsteps and glide bubble are made for Glasswind by `tools/make_desert_sfx.py`.
 
 ## Made for this game
 
