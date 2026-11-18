@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-18: 0.4.0 Easier climbs. Climbs start on purpose (push a moment or jump at the wall), holding still on a wall is free, a jump at a wall grabs it higher, the camera pulls back on climbs and frames both people in a talk, a Camera behind you button, the Journal of open requests and four updrafts that lift the glide (backlog 9, 10, 11, 12, 15, 19).
+
 - 2026-11-18: 0.3.0 The journey. Four more requests (Pell at the Oasis, Sef at the Buried Ship, the Old Road arches, the flute, the mast), the Scout's and Courier's sigils with a small ability each, the ending choice with Elder Suna, six star stones, the Map with travel, the title track (Ancient Winds, BC's pick), wind, bike hum, footsteps and the glide sound, a low-poly hover bike in code, a softer sand light and the Game Shelf card.
 
 - 2026-11-18: 0.2.0 Climb and glide. Climbing steep ground, the Leaning Tower (two ledges) and the Buried Ship with a gentle stamina limit, sliding down when tired, a No climbing limit assist, the glide bubble, the bike-parts tutorial at Home Camp, Elder Suna, the Nomad Camp (Taro, Mira, Ilo, Noor) and the first two requests with Courier and Scout tokens.
@@ -14,12 +16,12 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Now
 
-- BC tests now: 0.3.0 is on the Game Shelf.
+- BC tests now: 0.4.0 is on the Game Shelf.
 - The rider is in the game (0.1.1). Still to come: the Meshy bike, and the climb motion in 0.2. A young nomad, about 16, coral and teal wrap, long gold scarf, goggles (BC, 2026-11-18). Name still open.
 
 ## Next (BC picks after his test)
 
-- BC's feel check on 0.3.0: bike, climbing, gliding, camera, frame rate.
+- BC's feel check on 0.4.0: bike, climbing, gliding, camera, frame rate.
 - The Meshy hover bike (G8.5): needs BC to attach the GLB.
 - Meshy people for Elder Suna and the nomads.
 - Real landmark shapes for the tower, the ship and the falls (the art pass, G8.6 reference first).
@@ -43,20 +45,20 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 
 ### Quality of life
 
-9. * Climb only on purpose: a climb starts after you push into a wall for a moment or jump at it, so a brush against a rock never spends stamina. S
-10. * Hang still for free: holding still on a wall costs no stamina, so you can look around and plan a route. S
-11. Jump-start a climb: jumping at a wall gives a free couple of meters before stamina drains. S
-12. * Camera care: the camera pulls back and up while climbing, frames both people during a talk and has a recenter button (right stick click). M
+9. * Climb only on purpose: a climb starts after you push into a wall for a moment or jump at it, so a brush against a rock never spends stamina. S Done in 0.4.0.
+10. * Hang still for free: holding still on a wall costs no stamina, so you can look around and plan a route. S Done in 0.4.0.
+11. Jump-start a climb: jumping at a wall gives a free couple of meters before stamina drains. S Done in 0.4.0.
+12. * Camera care: the camera pulls back and up while climbing, frames both people during a talk and has a recenter button (right stick click). M Done in 0.4.0.
 13. Stamina ring by the rider instead of the bar at the bottom of the screen. S
 14. Map pins and a compass strip: drop a pin on any spot you look at, and see pins and found places along the top of the screen. Off by default. M
-15. * Request journal in the Menu: each open request, who asked and where to go. S
+15. * Request journal in the Menu: each open request, who asked and where to go. S Done in 0.4.0.
 16. The bike rides over to you when called (when it is in view) instead of appearing beside you. M
 17. Glide by choice: a Settings switch so the bubble opens on a press instead of on its own. S
 18. Lookouts fill the Map: reaching the top of the tower or the mast marks nearby places, like Sable's cartographers. M
 
 ### Movement and fun
 
-19. * Updrafts: warm air over the Dry Falls and big dunes lifts the glide bubble, so a long glide can climb again. M
+19. * Updrafts: warm air over the Dry Falls and big dunes lifts the glide bubble, so a long glide can climb again. M Done in 0.4.0.
 20. Bike tricks in the air: a spin or a flip off a crest, with a little boost as the reward. M
 21. Sand surfing on foot: slide down steep sand on your cloak. Pairs with idea 4 for the bike. M
 22. A flop button: tumble down a dune for fun. No damage. S
