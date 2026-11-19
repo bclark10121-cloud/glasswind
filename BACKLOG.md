@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- v0.7.2 (2026-11-18): start screen title (G5.21 Title, asked for by BC). The name sits in the dead center, above the buttons, in Aref Ruqaa (SIL Open Font License 1.1), on the start screen, the game page and the Game Shelf card. Kit 1.15.0.
+
 - 2026-11-18: 0.7.1 New name. Glasswind is now Saffron Drift (BC's pick) to fit the magic carpet and the Drift story. The start screen, the page, the APK name and the Game Shelf card all say Saffron Drift. The page moved to https://bclark10121-cloud.github.io/saffron-drift/ . Saves, settings and the Android install carry over: the save names and the app id keep the old name on purpose.
 
 - 2026-11-18: 0.7.0 The magic carpet. The hover bike is now a flying carpet of our own design: a woven terracotta rug with a sand border, dark brown zigzags and tassels, rippling faster as it speeds up. The rider stands on it surf style and leans into turns. Kip's upgrades, Rana's dyes, the three pieces at Home Camp, every line and the start screen now say carpet. Fixed: the black dot at the start of the boost trail (the particle node drew it). The trail is now a hand-made puff trail.

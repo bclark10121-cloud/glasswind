@@ -20,3 +20,4 @@ Saffron Drift (named Glasswind until 0.7.1) is an original game. The basin, the 
 ## Tools
 
 - Godot Engine 4.6. https://godotengine.org (MIT licence)
+- Title font: Aref Ruqaa, SIL Open Font License 1.1. Start screen, game page and Game Shelf card name (G5.21 Title, 2026-11-18). License text in `FONT-LICENSE-ArefRuqaa.txt`.
