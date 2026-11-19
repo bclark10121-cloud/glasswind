@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-18: 0.6.1 Coins and looks. Fixed: Boost, Jump, Bike and Act did nothing on a phone while a thumb held the stick (only the first finger acts as a mouse), so there was no boost smoke. The four buttons now read every finger. 95 gold coins in 12 trails (Home Camp road, the Old Road, up the Dry Falls ramp, round the Oasis and a statue, the ship's deck, an air arc off the Leaning Tower). Rana at the Nomad Camp sells 4 bike paints and 3 boost smoke colors. Smoke moved clear of the tail.
+
 - 2026-11-18: 0.6.0 Smaller world, more to do. The basin is 55 percent the size (about 800 m across): every place is closer and old saves move with it. Eight small ruins (broken walls, sunken statues, wind vanes, tall pillars, an empty camp), each with a scrap cache on top. 34 loose scrap pieces. Kip the tinker at Home Camp with four upgrades of three levels (engine, boost tank, hover springs, gliding stone). Requests also give 3 scrap. A scrap counter in the HUD (BC: smaller world, more to do, collect and upgrade).
 
 - 2026-11-18: 0.5.1. Fixed: the Menu stayed on top of Settings. Every Menu row (Settings, How to play, Map, Journal, Records) now opens in place of the Menu, and Back brings the Menu back. The starter base got the same fix and the bus layout file, so new games start with both.
@@ -22,12 +24,12 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Now
 
-- BC tests now: 0.6.0 is on the Game Shelf.
+- BC tests now: 0.6.1 is on the Game Shelf.
 - The rider is in the game (0.1.1). Still to come: the Meshy bike, and the climb motion in 0.2. A young nomad, about 16, coral and teal wrap, long gold scarf, goggles (BC, 2026-11-18). Name still open.
 
 ## Next (BC picks after his test)
 
-- BC's feel check on 0.6.0: bike, climbing, gliding, camera, frame rate.
+- BC's feel check on 0.6.1: bike, climbing, gliding, camera, frame rate.
 - The Meshy hover bike (G8.5): needs BC to attach the GLB.
 - Meshy people for Elder Suna and the nomads.
 - Real landmark shapes for the tower, the ship and the falls (the art pass, G8.6 reference first).
@@ -96,6 +98,8 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 - Fuel or water limits that strand you.
 
 ## Decisions from BC
+
+- 2026-11-18: still no boost smoke on the phone (fixed in 0.6.1). Some pickups should be coins: coins buy looks (bike paint and smoke colors), scrap stays for Kip's upgrades (BC picked the recommended option).
 
 - 2026-11-18: "move to next release, smaller world with more things to do, and collect and upgrade". Built as 0.6.0.
 
