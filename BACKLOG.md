@@ -1,8 +1,10 @@
-# Glasswind: backlog
+# Saffron Drift: backlog (named Glasswind until 0.7.1)
 
 Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
+
+- 2026-11-18: 0.7.1 New name. Glasswind is now Saffron Drift (BC's pick) to fit the magic carpet and the Drift story. The start screen, the page, the APK name and the Game Shelf card all say Saffron Drift. The page moved to https://bclark10121-cloud.github.io/saffron-drift/ . Saves, settings and the Android install carry over: the save names and the app id keep the old name on purpose.
 
 - 2026-11-18: 0.7.0 The magic carpet. The hover bike is now a flying carpet of our own design: a woven terracotta rug with a sand border, dark brown zigzags and tassels, rippling faster as it speeds up. The rider stands on it surf style and leans into turns. Kip's upgrades, Rana's dyes, the three pieces at Home Camp, every line and the start screen now say carpet. Fixed: the black dot at the start of the boost trail (the particle node drew it). The trail is now a hand-made puff trail.
 
@@ -26,10 +28,17 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Now
 
-- BC tests now: 0.7.0 is on the Game Shelf.
+- BC tests now: 0.7.1 is on the Game Shelf.
 - The rider is in the game (0.1.1). Still to come: the Meshy bike, and the climb motion in 0.2. A young nomad, about 16, coral and teal wrap, long gold scarf, goggles (BC, 2026-11-18). Name still open.
 
 ## Next (BC picks after his test)
+
+- 0.8.0 The Drift (BC, 2026-11-18): the new story. Every nomad of the Hearth Caravan takes the Drift at 16, a solo journey on the family carpet across the Ochre Basin. You go home once your carpet carries a pattern of your own.
+  - The carpet: grandmother's old carpet, faded to sand color. It wakes a little more with each pattern piece. Rests on sunlit stones (fits the star stones and stone stamina).
+  - Five sites and keepers, one motif each: Red Steps (old climber, Step motif, climbing), Glass Flats Market (the dyer, Sun motif, coin shop: fits Rana), Spiral Ridge (the tinker, Spiral motif, scrap upgrades: fits Kip), Dry Lake Wells (oasis caretaker, Water motif: fits Pell at the Oasis), Star Arch (stargazer at night, Star motif).
+  - Pattern pieces replace the Scout and Courier sigils as the story thread. Tassel charms on the carpet fringe become the hidden keepsakes.
+  - Ending: fly back to the caravan at dusk, arrange the pattern pieces into your own design, and it becomes the carpet's final look. Replaces the ending choice with Elder Suna. Free roam after.
+  - Open for BC: the rider's name (ideas Sami, Ren, Esa, Tavi, Kesh. Noor is taken by a Nomad Camp NPC), which current people become keepers, and whether Elder Suna stays as the caravan elder.
 
 - BC's feel check on 0.7.0: bike, climbing, gliding, camera, frame rate.
 - A Meshy cross-legged sit or a crouch-on-boost motion for the carpet rider (G8.5), if the standing pose needs more.
@@ -101,6 +110,7 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 
 ## Decisions from BC
 
+- 2026-11-18: new name Saffron Drift (picked from Threadwind, Dune Post, The Drift, Saffron Drift, Pattern of Home, keeping Glasswind). Story direction "The Drift" for 0.8.0. Name now, story next. Page address changes to saffron-drift.
 - 2026-11-18: the bike becomes a magic carpet, like Aladdin but our own design. Rider stands surf style. Starting look: terracotta desert (terracotta rug, sand border, dark brown zigzags). Black dot on first boost reported (fixed in 0.7.0).
 
 - 2026-11-18: still no boost smoke on the phone (fixed in 0.6.1). Some pickups should be coins: coins buy looks (bike paint and smoke colors), scrap stays for Kip's upgrades (BC picked the recommended option).

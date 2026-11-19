@@ -1,6 +1,6 @@
 # Credits
 
-Glasswind is an original game. The basin, the landmarks, the hover bike, the rider and the start screen are built in code for this test build. No personal names here (G1.11).
+Saffron Drift (named Glasswind until 0.7.1) is an original game. The basin, the landmarks, the hover bike, the rider and the start screen are built in code for this test build. No personal names here (G1.11).
 
 ## Music (found through the Patch.gg asset library)
 
@@ -9,11 +9,11 @@ Glasswind is an original game. The basin, the landmarks, the hover bike, the rid
 ## Sounds
 
 - The click, blip and pick sounds are made by the studio starter tool.
-- The wind, bike hum, footsteps and glide bubble are made for Glasswind by `tools/make_desert_sfx.py`.
+- The wind, bike hum, footsteps and glide bubble are made for Saffron Drift by `tools/make_desert_sfx.py`.
 
 ## Made for this game
 
-- The rider: made for Glasswind through Gemini and Meshy from original reference art (G8.3, G8.4). Motions from the Meshy animation library.
+- The rider: made for Saffron Drift through Gemini and Meshy from original reference art (G8.3, G8.4). Motions from the Meshy animation library.
 
 - The terrain, landmarks, bike, rider, icon and start screen, all drawn in code.
 
