@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- v0.8.2 (2026-11-19): tassel charms. The six star stones are gold tassel charms, each found one turns a carpet tassel gold. The Drift outline is done except the dusk homecoming (needs day and night) and the site names (BC's call).
+
 - v0.8.1 (2026-11-19): the Tester tools gate was missing from the 0.7.3 and 0.8.0 builds (make_debug_gate.py not run). Fixed. Run it before every export.
 
 - v0.8.0 (2026-11-19): The Drift. Tavi, five keepers at the basin's landmarks (BC: reuse landmarks): Mira the Step at the Leaning Tower, Rana the Sun at the Nomad Camp market, Kip the Spiral at the wind vanes, Pell the Water at the Oasis, Sef the Star at the Buried Ship. Grandmother's carpet starts faded and wakes per piece, woven marks on the carpet, Elder Suna's send-off and the middle-piece ending. Tokens and sigil forging retired (old sigil gifts kept). New `tests/drift_check.gd`.
@@ -46,7 +48,7 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Next (BC picks after his test)
 
-- Done in v0.8.0: The Drift (see Done). Still open from its outline: tassel charms as the hidden keepsakes, a dusk homecoming once day and night exist, the site names (Red Steps and the rest) if BC wants them.
+- Done in v0.8.0: The Drift (see Done). Still open from its outline: a dusk homecoming once day and night exist, the site names (Red Steps and the rest) if BC wants them.
 - Was: 0.8.0 The Drift (BC, 2026-11-18): the new story. Every nomad of the Hearth Caravan takes the Drift at 16, a solo journey on the family carpet across the Ochre Basin. You go home once your carpet carries a pattern of your own.
   - The carpet: grandmother's old carpet, faded to sand color. It wakes a little more with each pattern piece. Rests on sunlit stones (fits the star stones and stone stamina).
   - Five sites and keepers, one motif each: Red Steps (old climber, Step motif, climbing), Glass Flats Market (the dyer, Sun motif, coin shop: fits Rana), Spiral Ridge (the tinker, Spiral motif, scrap upgrades: fits Kip), Dry Lake Wells (oasis caretaker, Water motif: fits Pell at the Oasis), Star Arch (stargazer at night, Star motif).
