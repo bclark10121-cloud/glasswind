@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- v0.8.1 (2026-11-19): the Tester tools gate was missing from the 0.7.3 and 0.8.0 builds (make_debug_gate.py not run). Fixed. Run it before every export.
+
 - v0.8.0 (2026-11-19): The Drift. Tavi, five keepers at the basin's landmarks (BC: reuse landmarks): Mira the Step at the Leaning Tower, Rana the Sun at the Nomad Camp market, Kip the Spiral at the wind vanes, Pell the Water at the Oasis, Sef the Star at the Buried Ship. Grandmother's carpet starts faded and wakes per piece, woven marks on the carpet, Elder Suna's send-off and the middle-piece ending. Tokens and sigil forging retired (old sigil gifts kept). New `tests/drift_check.gd`.
 
 - v0.7.3 (2026-11-19): fixes from BC's playtest sweep, on Godot 4.7.2 (G6.19, the first existing game moved). Climbing follows each wall's real box shape (tower, hull, statue, pillar), hangs 0.3 m off the face, pulls up onto ledges and the roof. The tower's roof and ledges follow its lean. The deck slopes with the hull. Boost: a kick, a whoosh, rumble, faster speed-up, a wider view and a bigger two-corner trail. The riding camera eases round behind the carpet at up to 1.0 rad/s. New tests: `tests/climb_check.gd`, `tests/ride_check.gd`.
