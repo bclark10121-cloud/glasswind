@@ -4,6 +4,8 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
 
+- v0.7.3 (2026-11-19): fixes from BC's playtest sweep, on Godot 4.7.2 (G6.19, the first existing game moved). Climbing follows each wall's real box shape (tower, hull, statue, pillar), hangs 0.3 m off the face, pulls up onto ledges and the roof. The tower's roof and ledges follow its lean. The deck slopes with the hull. Boost: a kick, a whoosh, rumble, faster speed-up, a wider view and a bigger two-corner trail. The riding camera eases round behind the carpet at up to 1.0 rad/s. New tests: `tests/climb_check.gd`, `tests/ride_check.gd`.
+
 - v0.7.2 (2026-11-18): start screen title (G5.21 Title, asked for by BC). The name sits in the dead center, above the buttons, in Aref Ruqaa (SIL Open Font License 1.1), on the start screen, the game page and the Game Shelf card. Kit 1.15.0.
 
 - 2026-11-18: 0.7.1 New name. Glasswind is now Saffron Drift (BC's pick) to fit the magic carpet and the Drift story. The start screen, the page, the APK name and the Game Shelf card all say Saffron Drift. The page moved to https://bclark10121-cloud.github.io/saffron-drift/ . Saves, settings and the Android install carry over: the save names and the app id keep the old name on purpose.
@@ -30,7 +32,12 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Now
 
-- BC tests now: 0.7.1 is on the Game Shelf.
+- Playtest sweep results (BC, 2026-11-19, 8:59 PM):
+  - Good: frame rate on his phone, the upright view and touch buttons.
+  - Fixed in v0.7.3: carpet feel (steering, speed, jump, boost smoke), climbing and gliding (stamina, sliding when tired, glide bubble), camera (pull back on climbs, Camera behind you).
+  - 0.8.0 picks: rider name Tavi. Elder Suna stays as the caravan elder who sends you off and welcomes you home. Keepers: move current people (BC, 9:05 PM). Mira keeps Red Steps, Rana Glass Flats Market, Kip Spiral Ridge, Pell Dry Lake Wells, Sef Star Arch. Taro, Ilo and Noor stay in camp.
+  - Needs work details (BC, 9:05 PM): boost feels weak or its smoke is hard to see. Climbing a wall puts the rider through the wall. The camera swings too much in turns.
+- BC tests now: 0.7.3 (climbing, boost, turn camera).
 - The rider is in the game (0.1.1). Still to come: the Meshy bike, and the climb motion in 0.2. A young nomad, about 16, coral and teal wrap, long gold scarf, goggles (BC, 2026-11-18). Name still open.
 
 ## Next (BC picks after his test)
@@ -104,6 +111,30 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 35. Rumble on landings, boost and climbing over the top (Xbox controller and phone). S Done in 0.5.0.
 36. * Frame-rate budget: simpler far rocks and a phone check every release (Sable's stutter was its biggest complaint). M
 
+## From the Journey review (2026-11-19): ideas (BC added all nine)
+
+Source: Journey (thatgamecompany, 2012). Borrow structure, never content (G4.8): no Journey art, glyph designs or music. Size: S small, M medium, L large.
+
+### Movement
+
+37. Dune surfing on the carpet: long downhill dune runs where the carpet skims the sand fast with a spray trail and warm sunset light. Builds on ideas 4 and 21. M
+38. Glowing carpet tassels: hidden glyphs make the tassels longer, and longer tassels mean a longer glide. Works next to scrap upgrades and star stones (idea 23). M
+39. Cloth kites: loose carpet scraps and desert kites drift in the air and refill boost or glide when you pass near them. M
+
+### Story and world
+
+40. One landmark on the horizon: a distant tower or glowing peak, seen from everywhere, as the goal of The Drift. No map needed to know where to go. M
+41. Wordless story at camps: wall paintings at rest stops tell the family carpet's history, one panel per camp. Fits the story-later call. M
+42. Chirp button: one button sends out a sound and a ring of light. It wakes glyphs, calls kites (idea 39) and lights hidden paths. S
+
+### Feel
+
+43. Sparkling sand: a sand shader that glitters and shifts color with the sun. Phone frame-rate check first (idea 36, E3). M
+44. Music that follows your speed: extra music layers come in as you go faster or reach key spots. Needs the Patch.gg tracks split into parts (stems). Pairs with idea 33. M
+45. Reward for finishing: a gold carpet dye after the ending, bought with nothing, earned by finishing. Fits coins-buy-looks. S
+
+Not taken: Journey's silent online companion (needs servers and moderation). A safe offline version, a computer-run nomad who rides with you for a stretch, is open for BC as a later idea.
+
 ## Not planned (they break the pillars)
 
 - Combat, enemies or bosses.
@@ -126,3 +157,4 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 - 2026-11-18: named Glasswind. Build the 3D driving starter first, then Glasswind from it. Low-poly flat color. Bike sigils as keepsakes.
 - 2026-11-18: keep going to 0.3 and the Game Shelf, then BC tests. Title track B (Ancient Winds). Shelf picture A (riding an arch).
 - 2026-11-18: "go" on Glasswind with the defaults: a gentle climbing stamina limit and the repo slug `glasswind`. The rider waits on BC.
+- 2026-11-19, 1:48 PM: "Add all nine to backlog". Ideas 37 to 45 from the Journey review added.
