@@ -1,8 +1,10 @@
 # Saffron Drift: backlog (named Glasswind until 0.7.1)
 
-Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
+Updated 2026-11-20. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Done
+
+- v0.9.0 (2026-11-20): kit move (kit 1.22.0, kit rule 3). Walking, stamina, wall push and gliding on K6 explore, scrap, coins, upgrades and looks on K7 collect, places found and the revealed map on K9 explore map. Fixed: warm air sank the glide since 0.4.0 (the lift was worked out after gravity). The Map says how much of the basin you have mapped. Full screen by default in the browser (G5.11) and no 60 cap (G6.20) arrive with the kit. Save format unchanged plus the map. New `tests/kit_check.gd` and `tests/draft_check.gd`.
 
 - v0.8.2 (2026-11-19): tassel charms. The six star stones are gold tassel charms, each found one turns a carpet tassel gold. The Drift outline is done except the dusk homecoming (needs day and night) and the site names (BC's call).
 
@@ -38,6 +40,7 @@ Updated 2026-11-18. BC decides the order. Plan: `PLAN.md`. Brief: `BRIEF.md`.
 
 ## Now
 
+- Done in v0.9.0: staged for the next release (BC, 2026-11-19, 10:32 PM): full screen by default in the browser (G5.11, standards 19b). Pull kit 1.17.0 with `sync_common.sh`: the game goes full screen on the first tap, click or key press, and remembers when the player turns it off. Test: `tests/common` browser run, first click sets full screen. Also take G6.20 (120 frames a second) at the same release.
 - Playtest sweep results (BC, 2026-11-19, 8:59 PM):
   - Good: frame rate on his phone, the upright view and touch buttons.
   - Fixed in v0.7.3: carpet feel (steering, speed, jump, boost smoke), climbing and gliding (stamina, sliding when tired, glide bubble), camera (pull back on climbs, Camera behind you).
@@ -93,7 +96,7 @@ Sources: reviews of Sable, A Short Hike, Tchia and Lil Gator Game. Size: S small
 
 ### Movement and fun
 
-19. * Updrafts: warm air over the Dry Falls and big dunes lifts the glide bubble, so a long glide can climb again. M Done in 0.4.0.
+19. * Updrafts: warm air over the Dry Falls and big dunes lifts the glide bubble, so a long glide can climb again. M Done in 0.4.0. Fixed in 0.9.0: the lift only held a moment before gravity won.
 20. Bike tricks in the air: a spin or a flip off a crest, with a little boost as the reward. M
 21. Sand surfing on foot: slide down steep sand on your cloak. Pairs with idea 4 for the bike. M
 22. A flop button: tumble down a dune for fun. No damage. S
@@ -165,3 +168,4 @@ Not taken: Journey's silent online companion (needs servers and moderation). A s
 - 2026-11-18: keep going to 0.3 and the Game Shelf, then BC tests. Title track B (Ancient Winds). Shelf picture A (riding an arch).
 - 2026-11-18: "go" on Glasswind with the defaults: a gentle climbing stamina limit and the repo slug `glasswind`. The rider waits on BC.
 - 2026-11-19, 1:48 PM: "Add all nine to backlog". Ideas 37 to 45 from the Journey review added.
+- 2026-11-20: 0.9.0 open idea: shade the parts of the Map you have not seen yet (the kit map already tracks them).
